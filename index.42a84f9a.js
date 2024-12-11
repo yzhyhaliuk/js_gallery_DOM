@@ -1,0 +1,2 @@
+var t=document.querySelector(".gallery__large-img");document.querySelector(".gallery__list").addEventListener("click",function(e){e.preventDefault();var a=e.target;if("IMG"===a.tagName&&a.classList.contains("gallery__thumb")){var r=a.closest("a").getAttribute("href");t.src=r,t.onload=function(){var e=t.naturalWidth/t.naturalHeight;t.style.height="".concat(t.offsetWidth/e,"px")}}});
+//# sourceMappingURL=index.42a84f9a.js.map
